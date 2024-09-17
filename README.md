@@ -336,11 +336,9 @@ https://doi.org/10.1016/j.dib.2022.108139<br>
 <br>
 <br>
 <b>2. Multiple Sclerosis Lesion Segmentation in Brain MRI Using Inception Modules Embedded in a Convolutional Neural Network</b><br>
-
 Shahab U. Ansari, Kamran Javed, Saeed Mian Qaisar, Rashad Jillani, Usman Haider<br>
 First published: 04 August 2021 https://doi.org/10.1155/2021/4138137<br>
 <a href="https://onlinelibrary.wiley.com/doi/10.1155/2021/4138137?msockid=3ec756cfd5d167d7342f47c9d4de66ff">https://onlinelibrary.wiley.com/doi/10.1155/2021/4138137?msockid=3ec756cfd5d167d7342f47c9d4de66ff</a>
-
 <br>
 <br>
 <b>3. Multiple Sclerosis Lesions Segmentation Using Attention-Based CNNs in FLAIR Images</b><br>
@@ -360,7 +358,6 @@ Clara Di Lorenzo, Davide Maimone, Francesco Pappalardo, Sebastiano Battiato<br>
 https://doi.org/10.1016/j.compbiomed.2023.107021<br>
 <a href="https://www.sciencedirect.com/science/article/pii/S0010482523004869?via%3Dihub">https://www.sciencedirect.com/science/article/pii/S0010482523004869?via%3Dihub</a>
 <br>
-
 <br>
 <b>6. New multiple sclerosis lesion segmentation and detection using pre-activation U-Net</b><br>
 Pooya Ashtari, Berardino Barile, Sabine Van Huffel,Dominique Sappey-Marinier<br>
