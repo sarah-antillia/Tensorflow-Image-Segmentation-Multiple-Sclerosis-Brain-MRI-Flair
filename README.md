@@ -132,7 +132,7 @@ As shown above, the number of images of train and valid datasets is enough to us
 <h3>
 3 Train TensorflowUNet Model
 </h3>
- We have trained Multiple-Sclerosis-Brain-MRI-FlairTensorflowUNet Model by using the following
+ We trained Multiple-Sclerosis-Brain-MRI-Flair TensorflowUNet Model by using the following
 <a href="./projects/TensorflowSlightlyFlexibleUNet/Multiple-Sclerosis-Brain-MRI-Flair/train_eval_infer.config"> <b>train_eval_infer.config</b></a> file. <br>
 Please move to ./projects/TensorflowSlightlyFlexibleUNet/Multiple-Sclerosis-Brain-MRI-Flair and run the following bat file.<br>
 <pre>
@@ -237,7 +237,7 @@ In this experiment, the training process was manually terminated at epoch 46.<br
 <h3>
 4 Evaluation
 </h3>
-Please move to a <b>./projects/TensorflowSlightlyFlexibleUNet/Multiple-Sclerosis-Brain-MRI-Flair</b> folder,<br>
+Please move to a <b>./projects/TensorflowSlightlyFlexibleUNet/Multiple-Sclerosis-Brain-MRI-Flair</b> folder, 
 and run the following bat file to evaluate TensorflowUNet model for Multiple-Sclerosis-Brain-MRI-Flair.<br>
 <pre>
 ./2.evaluate.bat
