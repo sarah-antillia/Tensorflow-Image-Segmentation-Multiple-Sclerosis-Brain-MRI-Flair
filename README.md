@@ -61,37 +61,24 @@ you may try other Tensorflow UNet Models:<br>
 
 <br>
 
+<br>
 <h3>1. Dataset Citation</h3>
-The original dataset used here has been taken from the web site:<br>
-<a href="https://openneuro.org/datasets/ds002016/versions/1.0.0">
-<b>OpenNEURO BigBrainMRICoreg</b>
+We used the following dataset to create our ImageMask dataset 
+<a href="https://data.mendeley.com/datasets/8bctsm8jz7/1">
+Brain MRI Dataset of Multiple Sclerosis with Consensus Manual Lesion Segmentation and Patient Meta Information 
 </a>
-<br><br>
-<b>Authors:</b><br>
-Yiming Xiao, Jonathan C. Lau, Taylor Anderson, Jordan DeKraker, D. Louis Collins, <br>
-Terry M. Peters, Ali R. Khan<br>
 <br>
-<b>README:</b><br>
-This dataset includes co-registration of the BigBrain dataset to the MNI PD25 atlas and 
-the ICBM152 2009b atlases. The data include deformed BigBrain atlases and manual 
-subcortical segmentations in MINC2 and NIFTI-1 formats, as well as relevant spatial transformation 
-in MINC transformation format. The segmented subcortical structures include: red nucleus, 
-subthalamic nucleus, substantia nigra, caudate, putamen, globus pallidus externa, globus pallidus 
-interna, thalamus, hippocampus, nucleus accumbens, and amygdala
-<br>
-Note that the described improved co-registration was performed upon the BigBrain data in ICBM space
- from the BigBrain 2015release.
-<br><br>
-<b>License:</b> CC BY4.0<br>
-
-Within this dataset, the down-sampled versions of BigBrain atlases are distributed under 
-the CC BY4.0 License upon the consent from the original data owners, 
-the Montreal Neurological Institute (Montreal, Canada) and the Forschungszentrum Jülich (Jülich, Germany). 
-However, this exception to the existing BigBrain dataset does not alter the general term of that license 
-for use of the BigBrain itself, which is still under the CC BY-NC-SA 4.0 License.
-
+Published: 31 March 2022|Version 1|DOI:10.17632/c
 <br>
 
+<b>Contributor:</b>Ali M Muslim
+<br>
+<b>Description</b><br>
+Magnetic resonance imaging (MRI) provides a significant key to diagnose and monitor the progression of Multiple Sclerosis (MS) disease. Manual MS-Lesion segmentation, Expanded Disability Status Scale (EDSS) and patient’s meta information can provide a gold standard for research in terms of automated MS-lesion quantification, automated EDSS prediction and identification of the correlation between MS-lesion and patient disability. In this dataset, we provide a novel multi-sequence MRI dataset of 60 MS patients with consensus manual lesion segmentation, EDSS, general patient information and clinical information. On this dataset, three radiologists and neurologist experts segmented and validated the manual MS-lesion segmentation for three MRI sequences T1-weighted, T2-weighted and fluid-attenuated inversion recovery (FLAIR). The dataset can be used to study the relationship between MS-lesion, EDSS and patient clinical information. Furthermore, it also can be used to development of automated MS-lesion segmentation, patient disability prediction using MRI and correlation analysis between patient disability and MRI brain abnormalities include MS lesion location, size, number and type. 
+<br>
+<b>Licence</b> CC BY 4.0<br>
+<br>
+<br>
 <h3>
 <a id="2">
 2 Multiple-Sclerosis-Brain-MRI-Flair ImageMask Dataset
