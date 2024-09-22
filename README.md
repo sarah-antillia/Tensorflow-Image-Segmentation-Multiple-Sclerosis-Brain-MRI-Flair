@@ -1,5 +1,6 @@
-<h2>Tensorflow-Image-Segmentation-Multiple-Sclerosis-Brain-MRI-Flair (2024/09/18)</h2>
-
+<h2>Tensorflow-Image-Segmentation-Multiple-Sclerosis-Brain-MRI-Flair (Updated: 2024/09/22)</h2>
+<li>2024/09/22: Retrained Multiple-Sclerosis model by enabling an early stopping callback.</li>
+<br>
 This is the first experiment of Image Segmentation for Multiple-Sclerosis-Brain-MRI-Flair 
  based on
 the <a href="https://github.com/sarah-antillia/Tensorflow-Image-Segmentation-API">Tensorflow-Image-Segmentation-API</a>, and
@@ -181,7 +182,7 @@ reducer_patience      = 4
 </pre>
 
 <b>Early stopping callback</b><br>
-Enabled early stopping callback with patience parameter.
+Enabled an early stopping callback with patience parameter.
 <pre>
 [train]
 patience      = 10
@@ -207,8 +208,8 @@ By using these callbacks, on every epoch_change, the inference procedures can be
 <br>
 <br>
 
-In this experiment, the training process was manually terminated at epoch 46.<br><br>
-<img src="./projects/TensorflowSlightlyFlexibleUNet/Multiple-Sclerosis-Brain-MRI-Flair/asset/train_console_output_at_epoch_46.png" width="720" height="auto"><br>
+In this experiment, the training process was stopped at epoch 84 by the early stopping callback.<br><br>
+<img src="./projects/TensorflowSlightlyFlexibleUNet/Multiple-Sclerosis-Brain-MRI-Flair/asset/train_console_output_at_epoch_84.png" width="720" height="auto"><br>
 <br>
 
 <br>
@@ -235,13 +236,18 @@ python ../../../src/TensorflowUNetEvaluator.py ./train_eval_infer_aug.config
 </pre>
 
 Evaluation console output:<br>
-<img src="./projects/TensorflowSlightlyFlexibleUNet/Multiple-Sclerosis-Brain-MRI-Flair/asset/evaluate_console_output_at_epoch_46.png" width="720" height="auto">
+<img src="./projects/TensorflowSlightlyFlexibleUNet/Multiple-Sclerosis-Brain-MRI-Flair/asset/evaluate_console_output_at_epoch_84.png" width="720" height="auto">
 <br><br>
 
 <a href="./projects/TensorflowSlightlyFlexibleUNet/Multiple-Sclerosis-Brain-MRI-Flair/evaluation.csv">evaluation.csv</a><br>
 
 The loss (bce_dice_loss) to this Multiple-Sclerosis-Brain-MRI-Flair/test was low, and dice_coef relatively high as shown below.
 <br>
+<pre>
+loss,0.1266
+dice_coef,0.7637
+</pre>
+Previous result:
 <pre>
 loss,0.1345
 dice_coef,0.7507
